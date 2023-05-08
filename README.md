@@ -1,6 +1,6 @@
-# PHP-MAMP
+# Recipe app
 
-PHP-MAMP is a set of docker images that include a MAMP stack ([macOS](https://www.apple.com/macos/monterey/), [Apache](https://www.apache.org/), [MySQL](https://www.mysql.com/), [PHP8](https://www.php.net/) and [phpMyAdmin](https://www.phpmyadmin.net/) all in one handy package.
+This is a simple recipe app for the user to find a recipe and get the shopping list of ingridients.
 
 ## Using the image
 

@@ -32,6 +32,11 @@ ul {
     
   }
 
+.intro {
+  font-style: italic;
+  color: aqua;
+}
+
   .result {
 
     background-image: url('pexels-alisha-mishra-1346382.jpg');

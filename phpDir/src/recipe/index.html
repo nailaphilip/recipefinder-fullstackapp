@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Recipe</title>
-  <link rel="stylesheet" href="recipe.css">
-</head>
-<body>
+  <head>
+    <title>Recipe</title>
+    <link rel="stylesheet" href="recipe.css" />
+  </head>
+  <body>
     <h1>Recipe Finder</h1>
     <form method="GET" action="recipe.php">
-        <label for="name">Recipe Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter dessert name">
-        <button type="submit">Search</button>
-
+      <p class="intro">
+        Welcome to the Recipe Finder! Here you can find easy recipes for the
+        most popular cakes. Currently we have recipes for Banana bread,
+        Chocolate cake and Cheese cake. Please choose the desert and the
+        shopping list for the cake will be sent to you by email.
+      </p>
+      <label for="name">Recipe Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter dessert name"
+      />
+      <button type="submit">Search</button>
     </form>
-</body>
+    <div class="result"></div>
+  </body>
 </html>

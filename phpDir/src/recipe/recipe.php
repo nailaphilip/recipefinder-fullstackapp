@@ -49,7 +49,8 @@ $recipes = $stmt->fetchAll(PDO::FETCH_ASSOC);
  
     <h4>Shopping List:</h4>
 <ul> 
-<?php foreach (explode(',', $recipe['ingridients']) as $ingridient): ?>
+<?php foreach (explode(',', $recipe['ingridients']) as $ingridient): 
+mail("nailya@mail.com", 'Shopping list', $ingridient)?>
 <li><?php echo htmlspecialchars(trim($ingridient)); ?></li>
 <?php endforeach; ?>
 </ul>
